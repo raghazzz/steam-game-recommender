@@ -77,8 +77,6 @@ On Windows you can also double-click `start_app.bat`. The app opens at http://lo
 |---|---|
 | ![Kids section](docs/screenshots/app_kids.jpg) | ![Rows](docs/screenshots/app_rows.jpg) |
 
-*Screenshots were taken offline with a test model, so game art shows as coloured title posters.*
-
 ## Project structure
 
 ```
