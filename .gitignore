@@ -1,0 +1,19 @@
+# Raw data and other model files: too large for git (the trained model below is kept)
+*.joblib
+!steam_recommender_model.joblib
+data/
+*.csv
+games_metadata.json
+
+# Local files the app writes
+steam_age.json
+age_overrides.json
+
+# Python / Jupyter / OS
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
