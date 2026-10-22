@@ -34,12 +34,12 @@ Each player's liked games were split 80/20; the model had to find the hidden 20%
 |---|---|---|---|---|---|
 | Random | 0.0002 | 0.0009 | 0.0006 | 0.0024 | 0.9918 |
 | Popularity | 0.0101 | 0.0498 | 0.0295 | 0.0944 | 0.0017 |
-| Content-based | 0.0104 | 0.0530 | 0.0341 | 0.0964 | 0.3869 |
+| Content-based | 0.0104 | 0.0533 | 0.0342 | 0.0968 | 0.3874 |
 | Item-kNN CF | 0.0274 | 0.1360 | 0.0887 | 0.2320 | 0.1855 |
 | **Hybrid (α = 0.8)** | **0.0281** | **0.1394** | **0.0906** | **0.2366** | 0.1924 |
 
-- **Gap features** (change vs the plain hybrid): hidden gems +46.1% long-tail games for −0.9% NDCG; avoiding dislikes −20.5% disliked games shown for −3.4% NDCG; variety +4.7% diversity for −0.6% NDCG.
-- **New games (cold start)**: on 500 games hidden from training, content-based scored NDCG 0.1436 vs 0.0099 for CF, about 14× better.
+- **Gap features** (change vs the plain hybrid): hidden gems +45.8% long-tail games for −0.8% NDCG; avoiding dislikes −19.9% disliked games shown for −3.4% NDCG; variety +4.7% diversity for −0.6% NDCG.
+- **New games (cold start)**: on 500 games hidden from training, content-based scored NDCG 0.1426 vs 0.0105 for CF, about 14× better; giving new games a CF estimate from similar games raised it to 0.1477.
 
 ## Dataset
 
