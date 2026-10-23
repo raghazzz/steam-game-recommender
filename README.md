@@ -2,7 +2,7 @@
 
 A hybrid recommender system for Steam games. It combines **what similar players enjoy** (collaborative filtering) with **what the games are about** (content-based filtering), and serves the results in a Streamlit web app.
 
-Semester 5 Machine Learning project by **Raghav Malhotra**, B.Tech CSE (AI & ML), Manipal University Jaipur.
+Semester 5 Recommender Systems project by **Raghav Malhotra** and **Pranjal Mishra**, B.Tech CSE (AI & ML), Manipal University Jaipur.
 
 ![Home screen](docs/screenshots/app_home.jpg)
 
